@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎄 Calendrier de l'Avent du Code 🎁</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="title">🎄 Calendrier de l'Avent du Code 🎁</h1>
+    <button id="musicButton" class="music-btn">🔊 Musique</button>
+    <audio id="bgMusic" loop>
+      <source src="sources/musique.mp3" type="audio/mpeg">
+    </audio>
+  </header>
+
+  <main>
+    <div id="calendar"></div>
+    <div id="codeDisplay">
+      <p>👈 Clique sur un jour pour révéler ton morceau de code !</p>
+    </div>
+  </main>
+
+  <canvas id="snow"></canvas>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
