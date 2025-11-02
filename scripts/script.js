@@ -28,8 +28,7 @@ for (let i = 1; i <= 24; i++) {
 
 const days = document.querySelectorAll(".day");
 const now = new Date();
-// const currentMonth = now.getMonth(); // 0 = janvier, 11 = décembre
-const currentMonth = 11; // 0 = janvier, 11 = décembre
+const currentMonth = now.getMonth(); // 0 = janvier, 11 = décembre
 const today = now.getDate();
 
 // --- Vérification du mois ---
